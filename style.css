@@ -7,6 +7,21 @@ body {
     background-attachment: fixed;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-icon {
+    max-width: 300px; /* Adjust the size of the icon */
+}
+
+.center-icon img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(80%) contrast(120%) saturate(120%);
 }
 
 /* Add additional styles for your content here */
