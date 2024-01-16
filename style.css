@@ -1,1 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.discordapp.com/attachments/1191485134520729661/1196961346579873903/UncLy9v.png?ex=65b9881f&is=65a7131f&hm=6266cba072716a00783f27d3264666ecdf3aa35135c6a722ae0e46678ec3f4e7');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
 
+/* Add additional styles for your content here */
