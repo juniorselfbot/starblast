@@ -8,12 +8,16 @@ body {
     height: 100vh;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+
+header {
+    margin-top: 50px; /* Adjust the distance from the top */
 }
 
 .center-icon {
-    max-width: 300px; /* Adjust the size of the icon */
+    max-width: 400px; /* Adjust the size of the icon */
 }
 
 .center-icon img {
@@ -24,4 +28,21 @@ body {
     filter: brightness(80%) contrast(120%) saturate(120%);
 }
 
-/* Add additional styles for your content here */
+.description-section {
+    background-color: rgba(148, 87, 235, 0.8); /* Purplish background color with opacity */
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.description-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Add animations and additional styles as needed */
