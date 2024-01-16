@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://cdn.discordapp.com/attachments/1195239311814180874/1196963413688062062/digital-technology-metaverse-neon-blue-pink-purple-background-cyber-information-abstract-speed-connect-communication-retro-future-meta-tech-internet-network-connection-ai-big-data-illustration-3d-vector.jpg?ex=65b98a0c&is=65a7150c&hm=a13921c2ec79418be8b2233288b0a5db66293affdfb5aad9cb909bcaba92cbc3&');
+    background-image: url('https://cdn.discordapp.com/attachments/1195239311814180874/1196963413688062062/digital-technology-metaverse-neon-blue-pink-purple-background-cyber-information-abstract-speed-connect-communication-retro-future-meta-tech-internet-network-connection-ai-big-data-illustration-3d-vector.jpg?ex=65b98a0c&is=65a7150c&hm=a13921c2ec79418be8-b2233288b0a5db66293affdfb5aad9cb909bcaba92cbc3&');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -30,7 +30,9 @@ header {
 }
 
 .description-section,
-.how-it-works-section {
+.how-it-works-section,
+.game-details-section,
+.download-section {
     background-color: rgba(75, 0, 130, 0.8); /* Darker purple background color with opacity */
     color: #fff;
     padding: 50px 20px;
@@ -38,15 +40,22 @@ header {
     animation: fadeIn 1.5s ease-in-out; /* Fade-in animation */
 }
 
-.description-container {
+.description-container,
+.download-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
 .description-section h1,
-.how-it-works-section h2 {
+.how-it-works-section h2,
+.game-details-section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+}
+
+.game-details-section p,
+.download-section button {
+    margin-top: 20px;
 }
 
 /* Add animations and additional styles as needed */
