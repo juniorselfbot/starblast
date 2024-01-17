@@ -88,6 +88,12 @@ header {
     cursor: pointer;
 }
 
+/* Adjust position of bullet points */
+.how-it-works-section ul,
+.game-details-section ul {
+    list-style-position: inside;
+}
+
 /* Add animations and additional styles as needed */
 
 /* Keyframe animation for fade-in effect */
