@@ -4,7 +4,7 @@ body {
     background-image: url('https://cdn.discordapp.com/attachments/1195239311814180874/1196963413688062062/digital-technology-metaverse-neon-blue-pink-purple-background-cyber-information-abstract-speed-connect-communication-retro-future-meta-tech-internet-network-connection-ai-big-data-illustration-3d-vector.jpg?ex=65b98a0c&is=65a7150c&hm=a13921c2ec79418be8-b2233288b0a5db66293affdfb5aad9cb909bcaba92cbc3&');
     background-size: cover;
     background-position: center;
-    background-attachment: scroll; /* Change to 'scroll' for a parallax effect */
+    background-attachment: fixed;
     height: 100vh;
     overflow-y: scroll;
     display: flex;
@@ -16,6 +16,10 @@ header {
     margin-top: 50px;
 }
 
+.center-icon {
+    max-width: 400px;
+}
+
 .center-icon img {
     width: 100%;
     height: auto;
@@ -24,25 +28,16 @@ header {
     filter: brightness(80%) contrast(120%) saturate(120%);
 }
 
-.description-section,
-.how-it-works-section,
-.game-details-section,
-.download-section {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border: 1px solid #fff;
+/* Sections with fade-in effect */
+.section {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease, box-shadow 0.5s ease, border 0.5s ease;
+    transition: opacity 1s ease, transform 1s ease;
 }
 
-.description-section.visible,
-.how-it-works-section.visible,
-.game-details-section.visible,
-.download-section.visible {
+.section.visible {
     opacity: 1;
     transform: translateY(0);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    border: 2px solid #fff;
 }
 
 .description-section,
@@ -73,15 +68,7 @@ header {
     margin-top: 20px;
 }
 
-/* Set tab icon */
-head link[rel="icon"] {
-    display: none; /* Hide default icon */
-}
-
-/* Add the following line to set the new icon */
-head link[rel="shortcut icon"] {
-    href: 'https://cdn.discordapp.com/attachments/1195239311814180874/1196959940892438608/LyI8VNd_4.png?ex=65b986d0&is=65a711d0&hm=a5f307bf08c02082cfdee55c829e58c16ecde036397ba487de0cdb675704acf9';
-}
+/* Add animations and additional styles as needed */
 
 @keyframes fadeIn {
     from {
@@ -89,5 +76,17 @@ head link[rel="shortcut icon"] {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
     }
 }
