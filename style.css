@@ -42,15 +42,9 @@ header {
 
 .description-section,
 .how-it-works-section,
-.game-details-section {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background color */
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-
+.game-details-section,
 .download-section {
-    background-color: #800080; /* Purple background color for the download button */
+    background-color: rgba(75, 0, 130, 0.8);
     color: #fff;
     padding: 50px 20px;
     text-align: center;
@@ -74,7 +68,9 @@ header {
     margin-top: 30px; /* Increased margin for better spacing */
     padding: 15px 30px; /* Adjust padding for a larger button */
     font-size: 1.5em; /* Adjust font size for a larger button */
+    background-color: #800080; /* Purple background color */
     border: none; /* Remove button border */
+    color: #fff; /* White text color */
     cursor: pointer;
 }
 
