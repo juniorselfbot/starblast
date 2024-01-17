@@ -16,11 +16,6 @@ header {
     margin-top: 50px;
 }
 
-.center-icon {
-    max-width: 400px;
-    animation: pulse 2s infinite;
-}
-
 .center-icon img {
     width: 100%;
     height: auto;
@@ -78,6 +73,16 @@ header {
     margin-top: 20px;
 }
 
+/* Set tab icon */
+head link[rel="icon"] {
+    display: none; /* Hide default icon */
+}
+
+/* Add the following line to set the new icon */
+head link[rel="shortcut icon"] {
+    href: 'https://cdn.discordapp.com/attachments/1195239311814180874/1196959940892438608/LyI8VNd_4.png?ex=65b986d0&is=65a711d0&hm=a5f307bf08c02082cfdee55c829e58c16ecde036397ba487de0cdb675704acf9';
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -86,18 +91,3 @@ header {
         opacity: 1;
     }
 }
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-/* Your existing styles below this line */
-/* ... */
