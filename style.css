@@ -2,18 +2,15 @@
 body {
     margin: 0;
     padding: 0;
-    /* Background image styling */
     background-image: url('your-image-url.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
     overflow-y: scroll;
-    /* Flex container styling */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Set default text color to white */
     color: #fff;
 }
 
@@ -32,7 +29,6 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
-    /* Adjust image brightness, contrast, and saturation */
     filter: brightness(80%) contrast(120%) saturate(120%);
 }
 
@@ -70,10 +66,15 @@ header {
 .how-it-works-section h2,
 .game-details-section h2,
 .download-section h2,
-.download-section p,
-.description-text {
+.download-section p {
     font-size: 2.8em;
     margin-bottom: 20px;
+}
+
+/* Update text styling */
+.description-section h1 {
+    /* Add any necessary styles for plain text */
+    /* For example: font-weight: normal; color: #fff; */
 }
 
 /* Adjust margin, padding, and font size for specific elements */
@@ -82,7 +83,7 @@ header {
     margin-top: 30px;
     padding: 15px 30px;
     font-size: 1.8em;
-    background-color: #333; /* Add a background color for better visibility */
+    background-color: #333;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -111,4 +112,11 @@ header {
     100% {
         transform: scale(1);
     }
+}
+
+/* Set tab icon */
+/* Assuming .tab-icon is the class for the tab icon */
+.tab-icon {
+    /* Add styles to match the specified icon */
+    /* For example: background-image: url('your-icon-url.png'); background-size: cover; */
 }
