@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     /* Background image styling */
-    background-image: url('https://cdn.discordapp.com/attachments/1190908512633626642/1196984690637295616/1308898.jpg?ex=65b99ddd&is=65a728dd&hm=ba7bccb5aa6b7d5129647b914d5ab1457328426be01f0363d39b8e50c8311a79&');
+    background-image: url('your-image-url.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -70,7 +70,8 @@ header {
 .how-it-works-section h2,
 .game-details-section h2,
 .download-section h2,
-.download-section p {
+.download-section p,
+.description-text {
     font-size: 2.8em;
     margin-bottom: 20px;
 }
