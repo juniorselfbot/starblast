@@ -65,7 +65,9 @@ header {
 
 .game-details-section p,
 .download-section button {
-    margin-top: 20px;
+    margin-top: 30px; /* Increased margin for better spacing */
+    padding: 15px 30px; /* Adjust padding for a larger button */
+    font-size: 1.5em; /* Adjust font size for a larger button */
 }
 
 /* Add animations and additional styles as needed */
