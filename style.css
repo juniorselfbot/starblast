@@ -1,22 +1,28 @@
+/* Reset default margin and padding */
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://cdn.discordapp.com/attachments/1195239311814180874/1196963413688062062/digital-technology-metaverse-neon-blue-pink-purple-background-cyber-information-abstract-speed-connect-communication-retro-future-meta-tech-internet-network-connection-ai-big-data-illustration-3d-vector.jpg?ex=65b98a0c&is=65a7150c&hm=a13921c2ec79418be8-b2233288b0a5db66293affdfb5aad9cb909bcaba92cbc3&');
+    /* Background image styling */
+    background-image: url('https://cdn.discordapp.com/attachments/1190908512633626642/1196984690637295616/1308898.jpg?ex=65b99ddd&is=65a728dd&hm=ba7bccb5aa6b7d5129647b914d5ab1457328426be01f0363d39b8e50c8311a79&');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
     overflow-y: scroll;
+    /* Flex container styling */
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black; /* Set default text color to black */
+    /* Set default text color to white */
+    color: #fff;
 }
 
+/* Adjust margin for header */
 header {
     margin-top: 50px;
 }
 
+/* Center icon styling */
 .center-icon {
     max-width: 400px;
 }
@@ -26,6 +32,7 @@ header {
     height: auto;
     display: block;
     margin: 0 auto;
+    /* Adjust image brightness, contrast, and saturation */
     filter: brightness(80%) contrast(120%) saturate(120%);
 }
 
@@ -41,41 +48,40 @@ header {
     transform: translateY(0);
 }
 
+/* Common styling for sections */
 .description-section,
 .how-it-works-section,
-.game-details-section {
-    background-color: transparent; /* Set background color to transparent */
-    padding: 50px 20px;
-    text-align: center;
-}
-
+.game-details-section,
 .download-section {
-    background-color: black; /* Set download button background color to black */
-    color: #fff; /* Set download button text color to white */
+    background-color: transparent;
     padding: 50px 20px;
     text-align: center;
 }
 
+/* Container styling for certain sections */
 .description-container,
 .download-container {
     max-width: 800px;
     margin: 0 auto;
 }
 
+/* Adjust font size and margin for headings and paragraphs */
 .description-section h1,
 .how-it-works-section h2,
 .game-details-section h2,
 .download-section h2,
 .download-section p {
-    font-size: 2.8em; /* Increase font size slightly */
+    font-size: 2.8em;
     margin-bottom: 20px;
 }
 
+/* Adjust margin, padding, and font size for specific elements */
 .game-details-section p,
 .download-section button {
     margin-top: 30px;
     padding: 15px 30px;
-    font-size: 1.8em; /* Increase font size for button */
+    font-size: 1.8em;
+    background-color: #333; /* Add a background color for better visibility */
     border: none;
     color: #fff;
     cursor: pointer;
@@ -83,6 +89,7 @@ header {
 
 /* Add animations and additional styles as needed */
 
+/* Keyframe animation for fade-in effect */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -92,6 +99,7 @@ header {
     }
 }
 
+/* Keyframe animation for pulse effect */
 @keyframes pulse {
     0% {
         transform: scale(1);
