@@ -70,6 +70,7 @@ header {
     font-size: 1.5em; /* Adjust font size for a larger button */
     background-color: #800080; /* Purple background color */
     border: none; /* Remove button border */
+    color: #fff; /* White text color */
     cursor: pointer;
 }
 
