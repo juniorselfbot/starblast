@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: scroll; /* Enable vertical scrolling */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +29,18 @@ header {
     filter: brightness(80%) contrast(120%) saturate(120%);
 }
 
+/* Sections with fade-in effect */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .description-section,
 .how-it-works-section,
 .game-details-section,
@@ -37,7 +49,6 @@ header {
     color: #fff;
     padding: 50px 20px;
     text-align: center;
-    animation: fadeIn 1.5s ease-in-out; /* Fade-in animation */
 }
 
 .description-container,
