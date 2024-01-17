@@ -74,6 +74,8 @@ header {
 .description-text {
     font-size: 2.8em;
     margin-bottom: 20px;
+    color: #fff; /* Set text color to white */
+    background-color: transparent; /* Remove background color */
 }
 
 /* Adjust margin, padding, and font size for specific elements */
