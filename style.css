@@ -76,6 +76,12 @@ header {
     margin-bottom: 20px;
 }
 
+/* Adjust margin for list items to align the dotted plots */
+.how-it-works-section ul li,
+.game-details-section ul li {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
 /* Adjust margin, padding, and font size for specific elements */
 .game-details-section p,
 .download-section button {
@@ -117,17 +123,4 @@ header {
     100% {
         transform: scale(1);
     }
-}
-/* Your existing styles remain unchanged */
-
-/* Add fade-in effect for sections */
-.section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-.section.visible {
-    opacity: 1;
-    transform: translateY(0);
 }
