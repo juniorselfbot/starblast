@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff; /* Set default text color to white */
 }
 
 header {
@@ -42,16 +43,9 @@ header {
 
 .description-section,
 .how-it-works-section,
-.game-details-section {
-    background-color: transparent; /* Set background color to transparent */
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-
+.game-details-section,
 .download-section {
-    background-color: rgba(75, 0, 130, 0.8);
-    color: #fff;
+    background-color: transparent; /* Set background color to transparent */
     padding: 50px 20px;
     text-align: center;
 }
@@ -65,8 +59,9 @@ header {
 .description-section h1,
 .how-it-works-section h2,
 .game-details-section h2,
-.download-section h2 {
-    font-size: 2.5em;
+.download-section h2,
+.download-section p {
+    font-size: 2.8em; /* Increase font size slightly */
     margin-bottom: 20px;
 }
 
@@ -74,8 +69,8 @@ header {
 .download-section button {
     margin-top: 30px;
     padding: 15px 30px;
-    font-size: 1.5em;
-    background-color: #800080;
+    font-size: 1.8em; /* Increase font size for button */
+    background-color: transparent; /* Set button background color to transparent */
     border: none;
     color: #fff;
     cursor: pointer;
