@@ -52,9 +52,7 @@ header {
 .description-section,
 .how-it-works-section,
 .game-details-section,
-.download-section,
-.signup-section,
-.login-section {
+.download-section {
     background-color: transparent;
     padding: 50px 20px;
     text-align: center;
@@ -103,3 +101,26 @@ header {
 }
 
 /* Add animations and additional styles as needed */
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Keyframe animation for pulse effect */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
